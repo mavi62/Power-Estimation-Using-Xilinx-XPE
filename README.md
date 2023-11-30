@@ -594,3 +594,15 @@ This graph displays the overall power used by the design versus the design's sta
 
 
 </details>
+
+## Word of Thanks
+I sciencerly thank **Ms. Nandhita Rao** and my mentor **Lokesh Maji** for helping me out to complete this project.
+  
+## Reference 
+- https://www.xilinx.com/video/fpga/estimate-ultrascale-device-power-using-xpe.html
+- https://docs.xilinx.com/r/en-US/ug440-xilinx-power-estimator/Overview?tocId=Y1uKjFKcrvyAof2G4G~cmw
+- https://www.xilinx.com/content/dam/xilinx/support/packagefiles/usapackages/xcku035fbva900pkg.txt
+- https://verificationguide.com/verilog-examples/
+- https://www.digikey.at/htmldatasheets/production/1952540/0/0/1/UltraScale-Ultrascale-FPGAs-Specification.pdf
+- https://docs.xilinx.com/v/u/en-US/ug475_7Series_Pkg_Pinout
+- https://www.xilinx.com/products/technology/power/xpe.html
