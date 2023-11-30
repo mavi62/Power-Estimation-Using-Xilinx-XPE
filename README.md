@@ -606,3 +606,4 @@ I sciencerly thank **Ms. Nandhita Rao** and my mentor **Lokesh Maji** for helpin
 - https://www.digikey.at/htmldatasheets/production/1952540/0/0/1/UltraScale-Ultrascale-FPGAs-Specification.pdf
 - https://docs.xilinx.com/v/u/en-US/ug475_7Series_Pkg_Pinout
 - https://www.xilinx.com/products/technology/power/xpe.html
+- https://github.com/breagen/MachSuite
