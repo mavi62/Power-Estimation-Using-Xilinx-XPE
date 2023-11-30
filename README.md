@@ -2,7 +2,7 @@
 
 [XPE : Introduction to Xilinx Power Estimator](#XPE)
 
-[MachSuite](#Machsuite)
+[MachSuite & Package Used](#Machsuite)
 
 [Power Estimation](#Power-Estimation)
 
@@ -84,7 +84,32 @@ MachSuite is a benchmark suite intended for accelerator-centric research.
 
 To know more about it check [here](https://github.com/breagen/MachSuite)
 
-I utilized [HLS Vitis](https://www.xilinx.com/products/design-tools/vitis/vitis-hls.html) to synthesize the C/C++ codes from Machsuite into verilog files, which I then used in [Xilinx Vivado]((https://www.xilinx.com/products/design-tools/vivado.html)) to further synthesize the design.
+I utilized [HLS Vitis](https://www.xilinx.com/products/design-tools/vitis/vitis-hls.html) to synthesize the C/C++ codes from Machsuite into verilog files, which I then used in [Xilinx Vivado](https://www.xilinx.com/products/design-tools/vivado.html) to further synthesize the design.
+
+</details>
+
+<details> 
+<summary> Device Used </summary>
+
+For the project I have used [xcku035-fbva900-1-c](https://docs.xilinx.com/v/u/en-US/ug475_7Series_Pkg_Pinout).
+
+This figure shows the I/O Banks in the device.
+
+
+![pinout - 1](https://github.com/mavi62/RISC-V/assets/57127783/9dfe9f10-a58c-44e6-835c-9d1c03842efb)
+
+
+This figure shows the Configuration/Power diagram
+
+
+![pinout - 2](https://github.com/mavi62/RISC-V/assets/57127783/f08c5eec-58f8-4ad7-b13d-a31359567523)
+
+
+Banks in FBVA900 package.
+
+
+![banks](https://github.com/mavi62/RISC-V/assets/57127783/61aa99a3-d322-43cb-8d53-339d03c9d1f1)
+
 
 </details>
 
