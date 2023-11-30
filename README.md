@@ -237,3 +237,360 @@ This graph displays the overall power used by the design versus the design's sta
 
 
 </details>
+
+<details> 
+<summary> MachSuite / stencil / stencil2D </summary>
+
+The following image shows the process of converting the C/C++ file to verilog using vitis
+
+
+![hls](https://github.com/mavi62/RISC-V/assets/57127783/885e1307-cb08-443a-bccc-e708ba4c66d4)
+
+
+The procedure of utilizing Xilinx Vivado to determine the design's power is summed up in the graphic below.
+
+
+![vivado](https://github.com/mavi62/RISC-V/assets/57127783/a91c2937-0f63-4ba3-9922-047f50d51b9d)
+
+
+This image displays the power estimate for the design in advance using XPE.
+
+
+![xpe_summary](https://github.com/mavi62/RISC-V/assets/57127783/f8349dac-e692-45bd-aead-9ae7b540034c)
+
+
+The i/o used in the design is displayed in this picture.
+
+
+![xpe_io](https://github.com/mavi62/RISC-V/assets/57127783/f0b52a42-d14f-44a6-9c05-facc9868d53a)
+
+
+The static current by supply is displayed in this graphic.
+
+
+![static_current_supply](https://github.com/mavi62/RISC-V/assets/57127783/5c0826cb-333b-4ab0-b6fb-9455923c3a97)
+
+
+This graph displays the overall power used by the design versus the design's static power consumption.
+
+
+![total_vs_static](https://github.com/mavi62/RISC-V/assets/57127783/f9cb26f6-178e-4b96-b843-ae388a4d279a)
+
+
+</details>
+
+<details> 
+<summary> MachSuite / stencil / stencil3D </summary>
+
+The following image shows the process of converting the C/C++ file to verilog using vitis
+
+
+![hls](https://github.com/mavi62/RISC-V/assets/57127783/163efff7-bcbe-4dd9-b64d-eed6eb96ee1c)
+
+
+The procedure of utilizing Xilinx Vivado to determine the design's power is summed up in the graphic below.
+
+
+![vivado](https://github.com/mavi62/RISC-V/assets/57127783/59f1822e-168f-45f8-8352-bf2f4e2ba177)
+
+
+This image displays the power estimate for the design in advance using XPE.
+
+
+![xpe_summary](https://github.com/mavi62/RISC-V/assets/57127783/c0c8cd28-829f-41cd-b829-d4ad083d498e)
+
+
+The i/o used in the design is displayed in this picture.
+
+
+![xpe_io](https://github.com/mavi62/RISC-V/assets/57127783/1742d306-f981-4be7-8c15-14fb7af76b35)
+
+
+The static current by supply is displayed in this graphic.
+
+
+![static_current_supply](https://github.com/mavi62/RISC-V/assets/57127783/803ae3cf-7a2f-4442-a3a4-bb4a51d1b80a)
+
+
+This graph displays the overall power used by the design versus the design's static power consumption.
+
+
+![total_vs_static](https://github.com/mavi62/RISC-V/assets/57127783/052bb038-b5ca-4cf7-8338-1227efb0c3c8)
+
+
+</details>
+
+<details> 
+<summary> MachSuite / fft / strided </summary>
+
+The following image shows the process of converting the C/C++ file to verilog using vitis
+
+
+![hls](https://github.com/mavi62/RISC-V/assets/57127783/76991fcf-e47c-43ea-ba6a-7df50a3b375c)
+
+
+The procedure of utilizing Xilinx Vivado to determine the design's power is summed up in the graphic below.
+
+
+![vivado](https://github.com/mavi62/RISC-V/assets/57127783/130f8d57-c0b3-4e89-aaed-2d59e56a60dd)
+
+
+This image displays the power estimate for the design in advance using XPE.
+
+
+![xpe_summary](https://github.com/mavi62/RISC-V/assets/57127783/60ce9524-4db8-4308-b050-86c5c884fbcc)
+
+
+The i/o used in the design is displayed in this picture.
+
+
+![xpe_io](https://github.com/mavi62/RISC-V/assets/57127783/7b7e83ca-6ba1-4fae-b039-10966db521bc)
+
+
+The static current by supply is displayed in this graphic.
+
+
+![static_current_supply](https://github.com/mavi62/RISC-V/assets/57127783/8cea6426-34fd-49ef-b088-cb9917ae7601)
+
+
+This graph displays the overall power used by the design versus the design's static power consumption.
+
+
+![total_vs_static](https://github.com/mavi62/RISC-V/assets/57127783/fa532611-0b19-4006-ae75-5104a61dd213)
+
+
+</details>
+
+<details> 
+<summary> MachSuite / sort / merge </summary>
+
+The following image shows the process of converting the C/C++ file to verilog using vitis
+
+
+![hls](https://github.com/mavi62/RISC-V/assets/57127783/912a8882-9b28-4da2-adb7-1116bc1c4335)
+
+
+The procedure of utilizing Xilinx Vivado to determine the design's power is summed up in the graphic below.
+
+
+![vivado](https://github.com/mavi62/RISC-V/assets/57127783/543a795b-03a9-4ea4-812a-358a4cc805e2)
+
+
+This image displays the power estimate for the design in advance using XPE.
+
+
+![xpe_summary](https://github.com/mavi62/RISC-V/assets/57127783/1c8c9ec2-a837-42fe-8f08-38665823f9a5)
+
+
+The i/o used in the design is displayed in this picture.
+
+
+![xpe_io](https://github.com/mavi62/RISC-V/assets/57127783/0472a4ee-cbfc-4162-ac37-f3b4fb87453d)
+
+
+The static current by supply is displayed in this graphic.
+
+
+![static_current_supply](https://github.com/mavi62/RISC-V/assets/57127783/d2263cdf-57fd-4f41-a7fe-9ae796c0a41b)
+
+
+This graph displays the overall power used by the design versus the design's static power consumption.
+
+
+![total_vs_static](https://github.com/mavi62/RISC-V/assets/57127783/93c7c342-bc27-4af1-9e54-bb09922f9c83)
+
+
+</details>
+
+<details> 
+<summary> MachSuite / sort / radix </summary>
+
+The following image shows the process of converting the C/C++ file to verilog using vitis
+
+
+![hls](https://github.com/mavi62/RISC-V/assets/57127783/0fab4575-a84f-4284-833a-48d785606004)
+
+
+The procedure of utilizing Xilinx Vivado to determine the design's power is summed up in the graphic below.
+
+
+![vivado](https://github.com/mavi62/RISC-V/assets/57127783/1a1f54fe-6bce-4d31-9866-87ac977ff169)
+
+
+This image displays the power estimate for the design in advance using XPE.
+
+
+![xpe_summary](https://github.com/mavi62/RISC-V/assets/57127783/ebbd5606-576e-479b-9a47-d9cef40d2245)
+
+
+The i/o used in the design is displayed in this picture.
+
+
+![xpe_10](https://github.com/mavi62/RISC-V/assets/57127783/29c59610-07a3-4c81-a61d-b1f00c555f28)
+
+
+The static current by supply is displayed in this graphic.
+
+
+![static_current_supply](https://github.com/mavi62/RISC-V/assets/57127783/3c607c62-874b-4b58-8810-6a4b413a555e)
+
+
+This graph displays the overall power used by the design versus the design's static power consumption.
+
+
+![total_vs_static](https://github.com/mavi62/RISC-V/assets/57127783/8b9434e7-d24b-420f-876e-12a601b4a868)
+
+
+</details>
+
+<details> 
+<summary> MachSuite / gemm / ncubed </summary>
+
+The following image shows the process of converting the C/C++ file to verilog using vitis
+
+
+![hls](https://github.com/mavi62/RISC-V/assets/57127783/81c165a2-ce56-45d2-87a2-1222edd5f6ef)
+
+
+The procedure of utilizing Xilinx Vivado to determine the design's power is summed up in the graphic below.
+
+
+![vivado](https://github.com/mavi62/RISC-V/assets/57127783/f6e4e64a-1aca-4cd2-98fd-df6486f7063e)
+
+
+This image displays the power estimate for the design in advance using XPE.
+
+
+![xpe_summary](https://github.com/mavi62/RISC-V/assets/57127783/8b333cd8-4ff5-4ac7-995f-ee626d6271a2)
+
+
+The i/o used in the design is displayed in this picture.
+
+
+![xpe_io](https://github.com/mavi62/RISC-V/assets/57127783/26975a54-103d-44ce-9690-cc7d480eca4f)
+
+
+The static current by supply is displayed in this graphic.
+
+
+![static_current_supply](https://github.com/mavi62/RISC-V/assets/57127783/87c15054-8521-4491-87ab-c6ba3532fca3)
+
+
+This graph displays the overall power used by the design versus the design's static power consumption.
+
+
+![total_vs_static](https://github.com/mavi62/RISC-V/assets/57127783/95cb3abd-9181-4d77-b39c-3a14dd22ea63)
+
+
+</details>
+
+<details> 
+<summary> MachSuite / nw </summary>
+
+The following image shows the process of converting the C/C++ file to verilog using vitis
+
+
+![hls](https://github.com/mavi62/RISC-V/assets/57127783/457cee6a-d025-483b-a144-7de2a50cd197)
+
+
+The procedure of utilizing Xilinx Vivado to determine the design's power is summed up in the graphic below.
+
+
+![vivado](https://github.com/mavi62/RISC-V/assets/57127783/e212d548-eb58-4a91-bf90-5f9b61f50bea)
+
+
+This image displays the power estimate for the design in advance using XPE.
+
+
+![xpe_summary](https://github.com/mavi62/RISC-V/assets/57127783/68f13cae-316c-4c63-b2bf-32d701bc5055)
+
+
+The i/o used in the design is displayed in this picture.
+
+
+![xpe_io](https://github.com/mavi62/RISC-V/assets/57127783/3f190a1f-fb79-4425-b670-ab5b56001551)
+
+
+The static current by supply is displayed in this graphic.
+
+
+![static_current_supply](https://github.com/mavi62/RISC-V/assets/57127783/a59cd8b2-a97a-4cf7-9d7a-cd9019cdef6f)
+
+
+This graph displays the overall power used by the design versus the design's static power consumption.
+
+
+![total_vs_static](https://github.com/mavi62/RISC-V/assets/57127783/f086ad7b-f59b-4e83-a633-d8ffb193b28d)
+
+
+</details>
+
+<details> 
+<summary> float_mac_full </summary>
+
+The procedure of utilizing Xilinx Vivado to determine the design's power is summed up in the graphic below.
+
+
+![vivado](https://github.com/mavi62/RISC-V/assets/57127783/83874e39-1edb-4f11-aa46-dcda79b9d5de)
+
+
+This image displays the power estimate for the design in advance using XPE.
+
+
+![xpe_summary](https://github.com/mavi62/RISC-V/assets/57127783/d8fea675-eb6d-4b4e-a8a6-c776e7c1147d)
+
+
+The i/o used in the design is displayed in this picture.
+
+
+![xpe_io](https://github.com/mavi62/RISC-V/assets/57127783/de69729f-ea2b-4d57-a1f9-ca66706f8e72)
+
+
+The static current by supply is displayed in this graphic.
+
+
+![static_current_supply](https://github.com/mavi62/RISC-V/assets/57127783/8ac6a6b2-48ab-4428-943e-120fa99e9501)
+
+
+This graph displays the overall power used by the design versus the design's static power consumption.
+
+
+![total_vs_static](https://github.com/mavi62/RISC-V/assets/57127783/dac5e2fb-eed1-453c-933a-6597c78ab8d8)
+
+
+</details>
+
+<details> 
+<summary> systolic </summary>
+
+The procedure of utilizing Xilinx Vivado to determine the design's power is summed up in the graphic below.
+
+
+![vivado](https://github.com/mavi62/RISC-V/assets/57127783/51a47ed4-8895-4ee7-8ee7-57926b6d160e)
+
+
+This image displays the power estimate for the design in advance using XPE.
+
+
+![xpe_summary](https://github.com/mavi62/RISC-V/assets/57127783/5b650743-687d-41ed-adb6-9105b71ef7ab)
+
+
+The i/o used in the design is displayed in this picture.
+
+
+![xpe_io](https://github.com/mavi62/RISC-V/assets/57127783/b6e308f2-655e-4ac9-ba3f-e9b58cbd535f)
+
+
+The static current by supply is displayed in this graphic.
+
+
+![static_current_supply](https://github.com/mavi62/RISC-V/assets/57127783/32fce3d5-38f7-48e7-ba28-12882c9d1b0f)
+
+
+This graph displays the overall power used by the design versus the design's static power consumption.
+
+
+![total_vs_static](https://github.com/mavi62/RISC-V/assets/57127783/8ae3ff07-2256-4f3e-98f6-d7a209cc5d58)
+
+
+</details>
