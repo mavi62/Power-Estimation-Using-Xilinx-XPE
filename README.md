@@ -154,7 +154,7 @@ This graph displays the overall power used by the design versus the design's sta
 ![total_vs_static](https://github.com/mavi62/RISC-V/assets/57127783/3ca0f017-c67e-4770-8ac5-450886f6a444)
 
 
-<details>
+</details>
 
 <details> 
 <summary> MachSuite / bfs / queue </summary>
@@ -195,7 +195,7 @@ This graph displays the overall power used by the design versus the design's sta
 ![total_vs_static](https://github.com/mavi62/RISC-V/assets/57127783/9ab43755-92ad-450e-8024-70548645f0e4)
 
 
-<details>
+</details>
 
 <details> 
 <summary> MachSuite / kmp </summary>
@@ -236,4 +236,4 @@ This graph displays the overall power used by the design versus the design's sta
 ![total_vs_static](https://github.com/mavi62/RISC-V/assets/57127783/31d3aa72-793a-418c-a7a0-ea5574c68525)
 
 
-<details>
+</details>
