@@ -43,3 +43,21 @@ We need the following in order to provide the minimal input required for XPE to 
 - The thermal environment in which the design operates
 
 Generally speaking, enter as much information as you can about the design and then set the rest of the options to default. We can calculate the device's power supply and heat dissipation needs using this method.
+
+</details>
+
+<details> 
+<summary> XPE User Interface </summary>
+
+We can enter and modify all of the environment and device parameters on the Summary sheet. A summary of the power distribution is also shown on this sheet, along with options for data import into XPE, results export, and global setting adjustments.
+
+dia
+
+### Using the Settings Panel
+
+To configure the device, board, cooling, and ISE or AMD VivadoTM Design Suite parameters, use the parameters page. The targeted device determines how this panel changes. The figure below shows an example of a Kintex UltraScale device.
+
+Certain options rely on other settings. The dependent cell transforms to a gray background and loses its ability to be edited at that point.
+
+dia
+
