@@ -2,9 +2,9 @@
 
 [XPE : Introduction to Xilinx Power Estimator](#XPE)
 
-[Day 2 : Introduction to ABI and Basic Verification Flow](#day-2)
+[MachSuite](#Machsuite)
 
-[Day 3 : Digital Logic with TL-Verilog and Makerchip](#day-3)
+[Power Estimation](#Power-Estimation)
 
 [Day 4 : Basic RISC-V CPU Micro-Architecture](#day-4)
 
@@ -51,7 +51,9 @@ Generally speaking, enter as much information as you can about the design and th
 
 We can enter and modify all of the environment and device parameters on the Summary sheet. A summary of the power distribution is also shown on this sheet, along with options for data import into XPE, results export, and global setting adjustments.
 
-dia
+
+![summary](https://github.com/mavi62/RISC-V/assets/57127783/b1fc0884-950d-4d5d-9e33-ee8b8bf0b939)
+
 
 ### Using the Settings Panel
 
@@ -59,5 +61,112 @@ To configure the device, board, cooling, and ISE or AMD VivadoTM Design Suite pa
 
 Certain options rely on other settings. The dependent cell transforms to a gray background and loses its ability to be edited at that point.
 
-dia
+
+![settings](https://github.com/mavi62/RISC-V/assets/57127783/e794ebdd-af32-4e3c-84f9-ee38f92f48ab)
+
+
+### Using the XPE Toolbar
+
+XPE facilitates the import of data from various sources and enables global configuration changes to facilitate data entry into the tool. The toolbar is displayed in the figure that follows:
+
+
+![toolbar](https://github.com/mavi62/RISC-V/assets/57127783/de950195-08ee-462c-b972-fca21b0d22d8)
+
+
+</details>
+
+## Machsuite
+
+<details> 
+<summary> MachSuite </summary>
+
+MachSuite is a benchmark suite intended for accelerator-centric research.
+
+To know more about it check [here](https://github.com/breagen/MachSuite)
+
+I utilized [HLS Vitis](https://www.xilinx.com/products/design-tools/vitis/vitis-hls.html) to synthesize the C/C++ codes from Machsuite into verilog files, which I then used in [Xilinx Vivado]((https://www.xilinx.com/products/design-tools/vivado.html)) to further synthesize the design.
+
+</details>
+
+## Power Estimation
+
+<details> 
+<summary> MachSuite / bfs / bulk </summary>
+
+The following image shows the process of converting the C/C++ file to verilog using vitis
+
+
+![hls](https://github.com/mavi62/RISC-V/assets/57127783/e1f7b4ba-b9c0-4969-9d77-67f2a1d1bc47)
+
+
+The procedure of utilizing Xilinx Vivado to determine the design's power is summed up in the graphic below.
+
+
+![synth_vivado](https://github.com/mavi62/RISC-V/assets/57127783/32836b28-bcd7-4155-b393-fa9a8d30191b)
+
+
+This image displays the power estimate for the design in advance using XPE.
+
+
+![xpe_summary](https://github.com/mavi62/RISC-V/assets/57127783/614a6fa5-7956-4042-8b11-6726274251aa)
+
+
+The i/o used in the design is displayed in this picture.
+
+
+![xpe_io](https://github.com/mavi62/RISC-V/assets/57127783/7c0c3152-eb69-4163-b3ac-8600b320c5b9)
+
+
+The static current by supply is displayed in this graphic.
+
+
+![static_current _supply](https://github.com/mavi62/RISC-V/assets/57127783/069bcd6d-0b90-4719-ad6d-940246e58c89)
+
+
+This graph displays the overall power used by the design versus the design's static power consumption.
+
+
+![total_vs_static](https://github.com/mavi62/RISC-V/assets/57127783/3ca0f017-c67e-4770-8ac5-450886f6a444)
+
+
+<details>
+
+<details> 
+<summary> MachSuite / bfs / queue </summary>
+
+The following image shows the process of converting the C/C++ file to verilog using vitis
+
+
+![hls](https://github.com/mavi62/RISC-V/assets/57127783/a2ad9cc8-e906-4bf2-8ad3-e6c9cad47079)
+
+
+The procedure of utilizing Xilinx Vivado to determine the design's power is summed up in the graphic below.
+
+
+![synth_vivado](https://github.com/mavi62/RISC-V/assets/57127783/5a3a1c1a-9c7c-4ed1-b374-9a479a27075d)
+
+
+This image displays the power estimate for the design in advance using XPE.
+
+
+![xpe_summary](https://github.com/mavi62/RISC-V/assets/57127783/7fc39b4d-a840-4aaf-948c-935373846385)
+
+
+The i/o used in the design is displayed in this picture.
+
+
+![xpe_io](https://github.com/mavi62/RISC-V/assets/57127783/6bac1382-8804-41d8-9ce3-67e5d336ab1e)
+
+
+The static current by supply is displayed in this graphic.
+
+
+![static_current_supply](https://github.com/mavi62/RISC-V/assets/57127783/3e4c50fa-48d7-4584-bad2-df0820994448)
+
+
+This graph displays the overall power used by the design versus the design's static power consumption.
+
+
+![total_vs_static](https://github.com/mavi62/RISC-V/assets/57127783/9ab43755-92ad-450e-8024-70548645f0e4)
+
 
